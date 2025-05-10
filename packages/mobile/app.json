@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Hearshot",
+    "slug": "hearshot",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "app.hearshot.app"
+    },
+    "ios": {
+      "bundleIdentifier": "app.hearshot.app"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
+  },
+  "name": "hearshot"
+}
